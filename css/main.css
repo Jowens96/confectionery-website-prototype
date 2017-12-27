@@ -10,10 +10,58 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  background-color: #EA86AF;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: .4em;
+  margin: 0;
+  background-color: #E54687
+}
+
+nav {
+  padding-bottom: 1em;
+  ;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  padding: .5em .75em;
+  color: #B23669;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+
+.img-flex {
+  width: 100%;
+  display: block;
 }
 
 
