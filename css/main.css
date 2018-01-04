@@ -80,7 +80,7 @@ p {
 
 h3 {
   text-align: center;
-  margin-bottom: .5em;
+  margin: 0 0 .5em 0;
   background-color: #E54687;
   padding: .5em;
 }
@@ -152,9 +152,12 @@ section cite {
     line-height: 1.3;
   }
 
+  nav {
+    text-align: center;
+  }
+
   nav li {
     display: inline-block;
-    width: 32%;
     text-align: center;
   }
 
@@ -169,6 +172,7 @@ section cite {
     display: inline-block;
     width: 70%;
     margin: 0;
+    padding-bottom: .5em;
     text-align: left;
     vertical-align: middle;
   }
@@ -199,11 +203,102 @@ section cite {
     line-height: 1.4;
   }
 
+  .product-wrap {
+    position: relative;
+  }
+
+  .product-title {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    border-radius: 1em;
+    width: 60%;
+    color: white;
+    background-color: rgba(0, 0, 0, .2);
+  }
+
+  .product-title h2 {
+    border-radius: .3em;
+  }
+
+  .product-cards {
+    text-align: center;
+  }
+
+  .product-container {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .product-container p {
+    width: 105%;
+    text-align: center;
+    padding-bottom: 1.5em;
+  }
+
+  .product-container img {
+    margin: .5em;
+  }
+
+  .hours img {
+  margin: 1em 1em 0 2em;
+  }
+
+  .hours p {
+    width: 75%;
+    padding: 0;
+    margin-top: .5em;
+  }
+
+  .review img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 1em;
+  }
+
+  blockquote {
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    vertical-align: middle;
+  }
+
+  .review cite {
+    padding: 0;
+    margin-top: 1em;
+    text-align: left;
+  }
+
   @media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  header {
+    background-color: #B23668;
+  }
+
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 2em;
+    padding: .1em 0 0 0;
+  }
+
+  .hours img {
+    margin-left: 8.1em;
+  }
+
+  .hours p {
+    padding: 1em;
+  }
+
+  .review img {
+    margin-left: 5em;
   }
 
   @media only screen and (min-width: 90em) {
