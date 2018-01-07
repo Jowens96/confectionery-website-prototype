@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  background-color: #EA86AF;
+  background-color: #ea86af;
 }
 
 *, *::before, *::after {
@@ -22,16 +22,16 @@ body {
 }
 
 header {
-  background-color: #E54687;
+  background-color: #e54687;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
   font-size: 2.5rem;
   color: #fff;
   margin: 0;
-  background-color: #B23668;
+  background-color: #b23668;
 }
 
 nav {
@@ -49,11 +49,11 @@ nav a {
   padding: .5em;
   color: #fff;
   text-decoration: none;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.2rem;
 }
 
-/* MAIN SECTION BEGINS*/
+/* MAIN SECTION BEGINS */
 
 .img-flex {
   width: 100%;
@@ -65,30 +65,30 @@ h2 {
   margin: 0;
   padding: .2em;
   text-align: center;
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
   font-size: 1.8rem;
   color: #fff;
-  background-color: #B23668;
+  background-color: #b23668;
 }
 
 p {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   text-align: center;
-  color: #663E4E;
-  padding: 0 .5em 0 .5em;
+  color: #663e4e;
+  padding: .5em;
 }
 
 h3 {
   text-align: center;
-  margin: 0 0 .5em 0;
-  background-color: #E54687;
+  margin: 0 0 .5em;
+  background-color: #e54687;
   padding: .5em;
 }
 
 h3 > a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 img {
@@ -104,28 +104,27 @@ img {
 }
 
 .btn {
-  background-color: #B23668;
+  background-color: #b23668;
   color: #fff;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   padding: .4em;
   text-decoration: none;
   border-radius: 10px;
 }
 
 .review {
-  background-color:
-  #E54687;
+  background-color: #e54687;
 }
 
 blockquote {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   margin: .5em;
   padding-left: .5em;
 }
 
 footer {
-  background-color: #B23668;
+  background-color: #b23668;
 }
 
 footer p {
@@ -139,8 +138,8 @@ section cite {
   text-align: center;
   display: block;
   padding: 1em;
-  color: #663E4E;
-  background-color: #E54687;
+  color: #663e4e;
+  background-color: #e54687;
   font-style: normal;
   font-size: 1.2rem;
 }
@@ -193,10 +192,12 @@ section cite {
   }
 
   .btn-div {
-    margin: 0 0 1.5em 0;
+    margin: 0 0 1.5em;
   }
 
-  @media only screen and (min-width: 38em) {
+}
+
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
@@ -213,7 +214,7 @@ section cite {
     left: 20%;
     border-radius: 1em;
     width: 60%;
-    color: white;
+    color: #fff;
     background-color: rgba(0, 0, 0, .2);
   }
 
@@ -242,7 +243,7 @@ section cite {
   }
 
   .hours img {
-  margin: 1em 1em 0 2em;
+    margin: 1em 1em 0 2em;
   }
 
   .hours p {
@@ -270,7 +271,9 @@ section cite {
     text-align: left;
   }
 
-  @media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -278,7 +281,7 @@ section cite {
   }
 
   header {
-    background-color: #B23668;
+    background-color: #b23668;
   }
 
   h1,
@@ -286,7 +289,7 @@ section cite {
     display: inline-block;
     vertical-align: center;
     margin-left: 2em;
-    padding: .1em 0 0 0;
+    padding: .1em 0 0;
   }
 
   .hours img {
@@ -320,15 +323,12 @@ section cite {
     bottom: 10%;
     left: 25%;
   }
+}
 
-  @media only screen and (min-width: 90em) {
+@media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
   }
 
-  .hours img {
-  }
-
-  .hours p {
-  }
+}
