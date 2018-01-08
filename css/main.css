@@ -116,6 +116,10 @@ img {
   border-radius: 10px;
 }
 
+.hours p {
+  text-align: center;
+}
+
 .review {
   background-color: #e54687;
 }
@@ -248,26 +252,30 @@ section cite {
   }
 
   .hours img {
-    float: left;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hours p {
-    width: 80%;
-    padding: 1em;
-    margin: .5em auto;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
     display: block;
   }
 
   .hours .btn-div {
     display: block;
     padding: auto;
-    margin-right: 5em;
+  }
+
+  .review {
+    overflow: hidden;
   }
 
   .review img {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 1em;
+    float: left;
   }
 
   blockquote {
@@ -304,24 +312,16 @@ section cite {
     padding: .1em 0 0;
   }
 
-  .hours img {
-    display: block;
-    max-width: 60px;
-    margin-left: 9em;
-  }
-
   .hours p {
     display: block;
-    width: 25em;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1em;
-    margin-bottom: 1em;
   }
 
   .hours .btn-div {
-    margin: 1em 12em 1em 0;
     display: block;
+    margin: 0 0 1em 0;
   }
 
   .review img {
@@ -339,6 +339,18 @@ section cite {
 
   html {
     font-size: 130%;
+  }
+
+  .hours img {
+    max-width: 100%;
+    width: 256px;
+   margin-left: auto;
+   margin-right: auto;
+   float: none;
+  }
+
+  .hours p {
+    text-align: center;
   }
 
 }
