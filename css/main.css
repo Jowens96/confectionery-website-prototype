@@ -44,6 +44,18 @@ nav ul {
   list-style-type: none;
 }
 
+nav li:first-child:hover {
+  background-color: rgb(27, 202, 219);
+}
+
+nav li:nth-child(2):hover {
+  background-color: rgb(203, 143, 251);
+}
+
+nav li:last-child:hover {
+  background-color: rgb(230, 163, 15);
+}
+
 nav a {
   display: block;
   padding: .5em;
@@ -51,6 +63,15 @@ nav a {
   text-decoration: none;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.2rem;
+}
+
+h3 {
+  border-style: dotted solid;
+  border-color: #b23668;
+  text-align: center;
+  margin: 0 0 .5em;
+  background-color: #e54687;
+  padding: .5em;
 }
 
 h3 > a {
@@ -88,13 +109,6 @@ p {
   padding: .5em;
 }
 
-h3 {
-  text-align: center;
-  margin: 0 0 .5em;
-  background-color: #e54687;
-  padding: .5em;
-}
-
 img {
   display: block;
   margin-left: auto;
@@ -111,17 +125,18 @@ img {
   background-color: #b23668;
   color: #fff;
   font-family: "Open Sans Condensed", sans-serif;
-  padding: .4em;
+  padding: .7em;
   text-decoration: none;
   border-radius: 10px;
 }
 
-.hours p {
-  text-align: center;
-}
-
 .review {
   background-color: #e54687;
+}
+
+.review img {
+  max-width: 150px;
+  margin-top: 1em;
 }
 
 blockquote {
@@ -140,6 +155,16 @@ footer p {
   color: #fff;
   font-style: italic;
   padding: .5em;
+}
+
+.hours p {
+  text-align: center;
+}
+
+.review img,
+.location img {
+  border-style: solid;
+  border-color: #b23668;
 }
 
 section cite {
@@ -224,7 +249,7 @@ section cite {
     border-radius: 1em;
     width: 60%;
     color: #fff;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(212, 212, 212, .7);
   }
 
   .product-title h2 {
@@ -267,7 +292,6 @@ section cite {
 
   .hours .btn-div {
     display: block;
-    padding: auto;
   }
 
   .review {
@@ -276,13 +300,15 @@ section cite {
 
   .review img {
     float: left;
+    margin-left: 3em;
   }
 
   blockquote {
     display: inline-block;
     width: 50%;
-    padding: 0;
-    vertical-align: middle;
+    padding-top: 2em;
+    vertical-align: center;
+    margin-left: 3em;
   }
 
   .review cite {
@@ -321,17 +347,30 @@ section cite {
 
   .hours .btn-div {
     display: block;
-    margin: 0 0 1em 0;
-  }
-
-  .review img {
-    margin-left: 5em;
+    margin: 0 0 1em;
   }
 
   .product-title {
     width: 50%;
     bottom: 10%;
     left: 25%;
+  }
+
+  .review img {
+    float: none;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+
+  blockquote {
+    margin: 0 auto;
+    display: block;
+    padding-top: .9em;
+  }
+
+  .review cite {
+    padding-bottom: .5em;
   }
 }
 
@@ -344,13 +383,18 @@ section cite {
   .hours img {
     max-width: 100%;
     width: 256px;
-   margin-left: auto;
-   margin-right: auto;
-   float: none;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
   }
 
   .hours p {
     text-align: center;
+  }
+
+  blockquote {
+    padding-left: 3em;
+    width: 60%;
   }
 
 }
